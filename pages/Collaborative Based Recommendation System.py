@@ -32,7 +32,7 @@ add_bg_from_local('backgroundj1.jpg')
 
 model_knn = load(open('https://github.com/yeswanth-63/Movie-Recommendation-system/blob/main/knn_model.pkl', 'rb'))
 
-df = load(open('C:\\Users\\komal\\Downloads\\Movie_R1\\collaborative_cosine_similarity.pkl', 'rb'))
+df = load(open('https://github.com/yeswanth-63/Movie-Recommendation-system/blob/main/collaborative_cosine_similarity.pkl', 'rb'))
 df = pd.DataFrame(df)
 st.markdown(f'<h1 style="color:#ffffff;font-size:24px;background-color:#000000">{"Type or select a movie from the dropdown "}</h1>', unsafe_allow_html=True)
 #movie_name = st.selectbox("Type or select a movie from the dropdown",df.index.values)
