@@ -30,7 +30,7 @@ add_bg_from_local('backgroundj1.jpg')
 #image = Image.open('C:\\Users\\komal\\Downloads\\MRS1\\backgroundj1.jpg')
 #st.image(image)
 
-model_knn = load(open('https://github.com/yeswanth-63/Movie-Recommendation-system/blob/main/knn_model.pkl', 'rb'))
+model_knn = load(open('knn_model.pkl', 'rb'))
 
 df = load(open('https://github.com/yeswanth-63/Movie-Recommendation-system/blob/main/collaborative_cosine_similarity.pkl', 'rb'))
 df = pd.DataFrame(df)
