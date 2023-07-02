@@ -11,4 +11,3 @@ This project is a collaborative-based movie recommendation system that provides 
 
 ### 🔗https://yeswanth-63-movie-recommendation-system-about-xek2c8.streamlit.app/
 <br>
-## thank you.
